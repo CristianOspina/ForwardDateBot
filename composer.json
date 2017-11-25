@@ -1,0 +1,34 @@
+{
+  "name": "ForwardDateBot",
+  "description": " A very simple Telegram bot that says the date on which a forwarded message was originally sent ",
+  "keywords": [
+    "telegram",
+    "telegram bot",
+    "telegram bot api",
+    "telegram sdk",
+    "telegram php"
+  ],
+  "type": "library",
+  "homepage": "https://github.com/CristianOspina/ForwardDateBot",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cristian",
+      "homepage": "https://github.com/CristianOspina"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "irazasyed/telegram-bot-sdk": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Telegram\\Bot\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
